@@ -6,7 +6,9 @@ export default function App() {
   return (
     <View >
       <Text style={{fontSize: 30, fontWeight: 'bold',color: 'black',}}>Google Maps App</Text>
-      <MapContainer/>
+      <View>
+        <MapContainer/>
+      </View>
     </View>
   );
     
